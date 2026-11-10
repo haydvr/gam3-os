@@ -27,7 +27,6 @@ modules:
         - starship
         - gnome-shell-extension-caffeine
         - tailscale
-        - org.jellyfin.JellyfinServer
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -61,7 +60,6 @@ modules:
           - com.obsproject.Studio
           - org.kde.kdenlive
           - org.libretro.RetroArch
-          - org.jellyfin.JellyfinDesktop
           - tv.plex.Plex
       - scope: user # Also add Flathub user repo, but no user packages
 
